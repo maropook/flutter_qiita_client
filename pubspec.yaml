@@ -1,0 +1,44 @@
+name: homework
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0-134.5.beta <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^1.0.3
+  permission_handler: ^8.3.0
+  freezed_annotation: ^1.1.0
+  sqflite: ^2.0.2
+  swipe_gesture_recognizer: ^0.0.2
+  json_serializable: ^6.1.4
+  flutter_slidable: ^1.2.0
+  flutter_datetime_picker: ^1.5.1
+  intl: ^0.17.0
+  routemaster: ^0.9.5
+  enum_to_string: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  freezed: ^1.1.1
+  build_runner: ^2.1.7
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+# analysis_options.yaml
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
